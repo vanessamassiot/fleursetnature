@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
 
+  resources :stores
+
   root to: 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
