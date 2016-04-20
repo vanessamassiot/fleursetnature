@@ -1,0 +1,99 @@
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 10%;
+  &.bg1 {
+    background-image: image-url('etalage_fleursetnature_pontoile.jpg');
+  }
+  &.bg2 {
+    background-image: image-url('bride-and-groom-couple-bride-groom-wedding-gown.jpg');
+  }
+  &.bg3 {
+    background-image: image-url('pontoile02.jpg');
+  }
+  &.bg4 {
+    background-image: image-url('background.jpg');
+  }
+  &.bg5 {
+    background-image: image-url('thumb_IMG_0606_1024.jpg');
+  }
+  &.bg6 {
+    background-image: image-url('bouquet_mariee_prune.jpg');
+  }
+  &.about1 {
+    background-image: image-url('maya01.jpg');
+  }
+  &.about2 {
+    background-image: image-url('pontoile01.jpg');
+  }
+  &.about3 {
+    background-image: image-url('soissons01.jpg');
+  }
+  &.crea1 {
+    background-image: image-url('thumb_IMG_0351_1024.jpg');
+  }
+  &.crea2 {
+    background-image: image-url('thumb_IMG_0596_1024.jpg');
+  }
+  &.crea3 {
+    background-image: image-url('thumb_IMG_1334_1024.jpg');
+  }
+  &.crea4 {
+    background-image: image-url('thumb_IMG_1447_1024.jpg');
+  }
+  &.crea5 {
+    background-image: image-url('thumb_IMG_1654_1024.jpg');
+  }
+  &.crea6 {
+    background-image: image-url('compo_orange_cannelle.jpg');
+  }
+  &.crea7 {
+    background-image: image-url('centre_table_bouchons.jpg');
+  }
+  &.crea8 {
+    background-image: image-url('bouquet_mariee_prune.jpg');
+  }
+  &.crea9 {
+    background-image: image-url('structure_stage_gregor_lersch.jpg');
+  }
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 13px;
+  }
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+  border-radius: 10%;
+}
+.card-link:hover{
+  opacity: 0.1;
+  border-radius: 10%;
+}
