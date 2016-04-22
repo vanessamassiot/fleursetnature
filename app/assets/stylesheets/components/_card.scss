@@ -33,7 +33,7 @@
     background-image: image-url('soissons01.jpg');
   }
   &.crea1 {
-    background-image: image-url('thumb_IMG_0351_1024.jpg');
+    background-image: image-url('couronne-rose.jpg');
   }
   &.crea2 {
     background-image: image-url('thumb_IMG_0596_1024.jpg');
@@ -58,6 +58,26 @@
   }
   &.crea9 {
     background-image: image-url('structure_stage_gregor_lersch.jpg');
+  }
+}
+.card-actu {
+  height: 150px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 10%;
+  &.actu1 {
+    background-image: image-url('muguet.jpg');
+  }
+  &.actu2 {
+    background-image: image-url('pivoine-sarah.jpg');
+  }
+  &.actu3 {
+    background-image: image-url('couronne-rose.jpg');
+  }
+  &.actu4 {
+    background-image: image-url('kentia-palmier.jpg');
   }
 }
 .card-user {

@@ -6,12 +6,12 @@
 .container
   .row.avatar-large.text-center
     .col-xs-12.col-sm-3
-      h3 = image_tag('bg-open.png')
+      h3 = image_tag('bg-clock.png')
       h5 Ouvert de 8h30 à 20h30, 365 jours par an
     .col-xs-12.col-sm-3
       h3
         = image_tag('bg-delivery.png')
-      h5 Livraison en pétrolette
+      h5 Livraison sur Saint-Quentin, Soissons, et leurs environs
     .col-xs-12.col-sm-3
       h3
         = image_tag('bg-smile.png')
@@ -19,44 +19,81 @@
     .col-xs-12.col-sm-3
       h3
         = image_tag('bg-quality.png')
-      h5 Qualitat
+      h5 la Qualité de nos fleurs est constamment vérifiée
   hr
 .wrapper
   .container
     .row
       .col-xs-12.col-sm-4
         .card.bg1 style="background-image: linear-gradient((rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../images/background.jpg'));"
-          .card-category Popular
-          .card-description
-          a.card-link href="creations"
-      .col-xs-12.col-sm-4
-        .card.bg2 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
-          .card-category Popular
-          .card-description
-          a.card-link href="creations"
-      .col-xs-12.col-sm-4
-        .card.bg3 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
-          .card-category Popular
-          .card-description
-          a.card-link href="creations"
-    .row
-      .col-xs-12.col-sm-4
-        .card.bg4 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
-          .card-category Popular
-          .card-description
-          a.card-link href="creations"
-      .col-xs-12.col-sm-4
-        .card.bg5 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
-          .card-category Popular
+          .card-category Fleurs coupées "à la botte"
           .card-description
           a.card-link href="creations"
       .col-xs-12.col-sm-4
         .card.bg6 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
-          .card-category Popular
+          .card-category Bouquet de mariée
           .card-description
           a.card-link href="creations"
+      .col-xs-12.col-sm-4
+        .card.bg3 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
+          .card-category Compositions
+          .card-description
+          a.card-link href="creations"
+    / .row
+    /   .col-xs-12.col-sm-4
+    /     .card.bg4 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
+    /       .card-category Fleurs grandes tiges
+    /       .card-description
+    /       a.card-link href="creations"
+    /   .col-xs-12.col-sm-4
+    /     .card.bg5 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
+    /       .card-category Mariage
+    /       .card-description
+    /       a.card-link href="creations"
+    /   .col-xs-12.col-sm-4
+    /     .card.bg6 style="background-image: linear-gradient(rgba(0),0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');"
+    /       .card-category Bouquet de mariée
+    /       .card-description
+    /       a.card-link href="creations"
 .container
   .row.text-center
-    h3 retrouvez nous sur ...
-    p blablablabla
-    p yahouuuuu
+    h1
+  .row
+    .col-xs-2
+      .card-actu.actu1
+    .col-xs-4
+      h3 Le muguet arrive bientôt!
+      p plus que 10 jours avant l'arrivée du muguet nantais, en direct du producteur, en qualité Extra comme toujours!
+    .col-xs-2
+      .card-actu.actu2
+    .col-xs-4
+      h3 Des pivoines un peu en avance
+      p encore un peu chères (3,90€ la tige en moyenne), elles devraient être plus raisonnables d'ici fin mai (2€ la tige)
+  .row
+    .col-xs-2
+      .card-actu.actu3
+    .col-xs-4
+      h3 Baptêmes et communions
+      p pour vos décors de table ou couronnes de fleurs, n'hésitez pas à nous demander conseil!
+    .col-xs-2
+      .card-actu.actu4
+    .col-xs-4
+      h3 A vos palmiers!
+      p les beaux jours arrivent... et qui dit soleil, dit terrasse. Qui dit terrasse, dit plantes de terrasse! Une belle sélection de palmiers, oliviers, bambous, à découvrir à partir du 27 avril en magasin.
+
+.wrapper
+  .container
+    .row.text-center
+      h1 L'Atelier, by Fleurs & Nature
+      h3 des cours d'art floral, à offrir ou à s'offrir
+      h5 Agenda à venir - plus d'informations: atelier@fleursetnature.com
+
+.container
+  .row
+    #newsletter.text-center.padded
+      h2 Restez informés!
+      p Laissez-nous votre email et restez informés
+      form.form-inline
+        input.form-control placeholder="bob@gmail.com" type="email" /
+        input.btn.btn-medium type="submit" value="Subscribe" /
+

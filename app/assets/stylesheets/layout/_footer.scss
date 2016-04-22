@@ -1,5 +1,11 @@
 // Your footer style
 
-footer {
-  background: #999999;
+.social-links a {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+  &:hover{
+  color: #00442a;
+  }
 }
